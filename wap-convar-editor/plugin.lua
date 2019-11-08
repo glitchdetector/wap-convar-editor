@@ -32,7 +32,7 @@ local CONVARS = {
     {"Scripthook"},
     {"Enable Scripthook",   "sv_scriptHookAllowed", CV_BOOL,    false,  "Allows players to run custom game modifications"},
 
-    {"Authencation", "Control requirements for joining the server"},
+    {"Authentication", "Control requirements for joining the server"},
     {"Maximum Variance",    "sv_authMaxVariance",   CV_SLIDER,  1, 1, 5},
     {"Minimum Trust",       "sv_authMinTrust",      CV_SLIDER,  5, 1, 5},
 }
